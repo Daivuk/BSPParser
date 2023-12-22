@@ -4,7 +4,7 @@ project("BSPParser" CXX)
 set(CMAKE_CXX_STANDARD 17)
 
 add_library(
-	${PROJECT_NAME}
+	${PROJECT_NAME} STATIC
 	"BSPParser.cpp"
 
 	"FileFormat/Parser.cpp"
